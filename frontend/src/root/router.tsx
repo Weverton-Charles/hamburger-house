@@ -3,6 +3,7 @@ import { Layout } from "../layout/Layout";
 import Login from "../pages/auth/Login";
 import Register from "../pages/auth/Register";
 import Home from "../pages/Home";
+import NotFound404 from "../pages/common/not_found/NotFound404";
 
 export const router = createHashRouter([
   {
@@ -23,5 +24,10 @@ export const router = createHashRouter([
   {
     path: "/register",
     element: <Register />,
+  },
+  // catch-all route
+  {
+    path: "*",
+    element: <NotFound404 />,
   },
 ]);
