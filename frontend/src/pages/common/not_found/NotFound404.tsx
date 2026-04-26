@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import BurgerSvg from "./components/BurgerSvg";
 import Button from "../../../components/Button";
 
+
 const NotFound404 = () => {
   return (
     <main className="flex min-h-screen w-full items-center justify-center bg-[#161410] px-6 py-12">
