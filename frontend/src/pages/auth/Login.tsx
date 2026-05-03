@@ -4,7 +4,7 @@ import Input from "../../components/Input";
 import Button from "../../components/Button";
 import { useNavigate } from "react-router";
 import { useContext } from "react";
-import { UserContexType } from "../../types/User";
+
 import { UserContext } from "../../contexts/UserContext";
 
 
