@@ -13,14 +13,14 @@ const NotFound404 = () => {
             404
           </h1>
           <p className="text-base font-medium text-[#F2DAAC]/80">
-            Nenhum sanduíche aqui.
+            We're preparing the best burger for you!
           </p>
           <p className="text-sm text-[#F2DAAC]/50">
-            Esta página não existe!
+            This page does not exist!
           </p>
         </div>
         <Link to="/">
-          <Button title="Voltar" variant="login" />
+          <Button title="To go back" variant="login" />
         </Link>
       </div>
     </main>
