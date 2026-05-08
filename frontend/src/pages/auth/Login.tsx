@@ -33,7 +33,10 @@ const Login = () => {
         body: JSON.stringify({ email, password }),
         credentials: "include",
       });
+
       console.log(response.status);
+
+      
 
       if (response.status === 400) {
         setError("Email and password are required");

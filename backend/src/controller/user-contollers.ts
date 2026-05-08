@@ -41,7 +41,7 @@ export const login = async (req: Request, res: Response) => {
       return;
     }
     const token = jwt.sign(userInfos, process.env.JWT_SECRET);
-
+    console.log(token);
     res.cookie("user", token, {
       maxAge: 30 * 1000,
     });
